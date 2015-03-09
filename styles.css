@@ -1,0 +1,56 @@
+body {
+	font-size: 13px;
+}
+
+a {
+	text-decoration: none;
+}
+
+table, th, td {
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px;
+}
+
+.table, .table th, .table td {
+	border: none;
+}
+
+#wrapper {
+	width: 800px;
+	margin: 50px auto;
+}
+
+.btn {
+	padding: 5px;
+	border-radius: 5px;
+	background: #aaa;
+	color: #fff;
+}
+.btn:hover {
+	opacity: .8;
+}
+.read {
+	background: #0000AF;
+	color: #fff;
+}
+
+.update, .create {
+	background: #00AF00;
+	color: #FFF;
+}
+
+.delete {
+	background: #AF0000;
+	color: #fff;
+}
+
+.error {
+	color: #AF0000;
+}
+.success {
+	color: #00AF00;
+}
