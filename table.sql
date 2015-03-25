@@ -1,0 +1,8 @@
+CREATE TABLE staff (
+id INT(11) AUTO_INCREMENT,
+name VARCHAR(50),
+position VARCHAR(50),
+joined DATETIME,
+bio TEXT,
+PRIMARY KEY (id)
+);
